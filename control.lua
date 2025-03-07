@@ -16,6 +16,7 @@ end
 
 local on_built = function (data)
     local entity = data.entity
+    if not entity.quality then return end
     if entity.quality.level == 0 then return end
     if not check_entity(entity.name) then return end
 
@@ -28,9 +29,15 @@ local on_built = function (data)
         force = entity.force,
         fast_replace = true,
         player = entity.last_user,
+        move_stuck_players = true,
+        spill=true,
     }
+    
+    local new_entity = surface.create_entity(info)
+    -- new_entity.set_recipe(entity.get_recipe())
+    -- new_entity.set_module_inventory(entity.get_module_inventory())
+    -- new_entity.set_module_inventory_size(entity.module_inventory_size)
     entity.destroy()
-    surface.create_entity(info)
 end
 
 script.on_event(defines.events.on_built_entity, on_built, {{filter = "crafting-machine"}})
