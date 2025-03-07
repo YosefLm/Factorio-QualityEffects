@@ -1,10 +1,4 @@
----------------------------------------------------------------------------------------------------
-Version: 1.0.4
+Version: 0.1.5
+Date: 2025-03-07
   Features:
-    - Fixed cerys + this mod crashing on startup
----------------------------------------------------------------------------------------------------
-Version: 1.0.3
-Date: 2024-01-08
-  Features:
-    - Added changelog.txt
-    - Fixed placeable_by value in maraxsis hydro plants
+    - less crashes

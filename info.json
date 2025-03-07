@@ -1,7 +1,7 @@
 {
   "name": "QualityEffectsFixed2",
   "version": "0.1.5",
-  "title": "Quality Effects",
+  "title": "Quality Effects Fixed 2",
   "author": "Tsumiki Miniwa",
   "factorio_version": "2.0",
   "description": "Extra fixes and crash handling, Forked from: Quality now adds module slots in assembling machines. Forked from Andrey135296's version of the mod to partially work with Maraxsis.",
