@@ -1,6 +1,6 @@
 {
-  "name": "QualityEffectsFixed",
-  "version": "0.1.4",
+  "name": "QualityEffectsFixed2",
+  "version": "0.1.5",
   "title": "Quality Effects",
   "author": "Tsumiki Miniwa",
   "factorio_version": "2.0",
@@ -9,6 +9,7 @@
     "base >= 2.0.23", 
     "quality >= 2.0.23", 
     "? space-age >= 2.0.23",
-    "? maraxsis"
+    "? maraxsis",
+    "? kry-all-planet-mods"
   ]
 }
